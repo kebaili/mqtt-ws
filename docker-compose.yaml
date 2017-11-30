@@ -1,0 +1,7 @@
+version: '2'
+services:
+  mosquitto:
+    build: mosquitto-ws
+    ports:
+      - 1883:1883
+      - 1884:1884
